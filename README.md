@@ -55,6 +55,12 @@ git checkout <branch-name>
 git log --oneline
 ```
 
+10. 查看当前仓库有多少分支:
+
+```
+git branch
+```
+
 
 # git push -u origin master 跟git push origin master 有什么区别
 `git push -u origin master` 和 `git push origin master` 的区别在于是否设置了上游分支（upstream branch）。
